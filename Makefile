@@ -1,5 +1,5 @@
 TEMPORARY_FOLDER?=/tmp/SourceKitten.dst
-PREFIX?=/usr/local
+PREFIX?=./temp/sourcekitten
 BUILD_TOOL?=xcodebuild
 
 XCODEFLAGS=-workspace 'SourceKitten.xcworkspace' \
